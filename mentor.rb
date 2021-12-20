@@ -13,9 +13,6 @@ class Mentor
 end
 
 class RailsMentor < Mentor
-    # インスタンス変数
-    attr_accessor :name 
-    
     def job 
         puts "#{self.name}です。私はRubyとRailsでWebアプリケーションを作ります。"
     end
